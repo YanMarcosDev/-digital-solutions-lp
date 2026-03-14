@@ -19,7 +19,7 @@
 
 body {
   background-color: var(--color-bg);
-  background-image: 
+  background-image:
     linear-gradient(to right, rgba(0, 229, 255, 0.03) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(0, 229, 255, 0.03) 1px, transparent 1px);
   background-size: 40px 40px;
@@ -36,7 +36,9 @@ body {
 }
 
 /* Typography Hierarchy & Alignment */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.02em;
@@ -77,7 +79,8 @@ a {
 }
 
 /* Buttons */
-button, .cta-button {
+button,
+.cta-button {
   cursor: pointer;
   border: none;
   outline: none;
@@ -149,14 +152,22 @@ section {
 }
 
 /* Animations */
-.reveal {
+  {
   /* Animation classes maintained for JS observer */
 }
 
 @keyframes float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-15px); }
-  100% { transform: translateY(0px); }
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .floating-img {
@@ -185,8 +196,15 @@ section {
 }
 
 @keyframes pulse-glow {
-  0% { opacity: 0.2; transform: translate(-50%, -50%) scale(0.9); }
-  100% { opacity: 0.6; transform: translate(-50%, -50%) scale(1.1); }
+  0% {
+    opacity: 0.2;
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+
+  100% {
+    opacity: 0.6;
+    transform: translate(-50%, -50%) scale(1.1);
+  }
 }
 
 /* Hero Section */
@@ -226,6 +244,7 @@ section {
     transform: scale(0.9);
     filter: drop-shadow(0 0 0px var(--color-primary));
   }
+
   100% {
     opacity: 1;
     transform: scale(1);
@@ -509,20 +528,20 @@ footer {
   section {
     padding: 5rem 0;
   }
-  
+
   .section-header {
     margin-bottom: 3rem;
   }
-  
+
   .hero-ctas {
     flex-direction: column;
     width: 100%;
   }
-  
+
   .cta-modern-box {
     padding: 3rem 1.5rem;
   }
-  
+
   .cta-button {
     width: 100%;
   }

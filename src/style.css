@@ -151,10 +151,7 @@ section {
   opacity: 0.3;
 }
 
-/* Animations */
-  {
-  /* Animation classes maintained for JS observer */
-}
+
 
 @keyframes float {
   0% {
